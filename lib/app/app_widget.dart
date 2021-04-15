@@ -5,8 +5,12 @@ class AppWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Slidy',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      debugShowCheckedModeBanner: false,
+      title: 'Dashboard Flutter Web',
+      theme: ThemeData(
+        scaffoldBackgroundColor: Color(0xFFdfe1ee),
+        primarySwatch: Colors.blue,
+      ),
     ).modular();
   }
 }
